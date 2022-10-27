@@ -1,0 +1,64 @@
+@font-face{
+  font-family: scoreBoard;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+@font-face{
+  font-family: Verdana;
+  src: url(/verdana-font-family/verdana-bold.ttf);
+}
+
+p{
+  background-color:black;
+  color:red;
+  width:155px;
+  height:120px;
+  text-align:center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family:scoreBoard;
+  font-size:90px;
+  
+}
+
+h3{
+  font-family:Verdana;
+  font-size: 40px;
+  margin-top:35%
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+    background-color:#1B244A;
+    color:white;
+    text-align:center;
+    width:575px;
+    height: auto;
+    
+}
+.btn {
+  border: 2px solid white;
+  background-color:#1B244A;
+  color: white;
+  margin-right:5px;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size: 18px;
+  cursor: pointer;
+  width:45px;
+  height:45px;
+  font-family:scoreBoard;
+}
+
+.resetBtn{
+  border: 2px solid white;
+  background-color:#1B244A;
+  color: white;
+  font-size: 18px;
+  margin-right:5px;
+  margin-top:20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family:scoreBoard;
+}
